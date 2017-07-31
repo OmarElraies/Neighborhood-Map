@@ -1,4 +1,4 @@
-﻿# Neighborhood Map Project
+# Neighborhood Map Project
 This Project is part of the Udacity[Fullstack Nanodegree](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004) curriculum.
 
 ## Project Overview
@@ -6,16 +6,16 @@ This is map of many atractice places in cairo , Egypt’s sprawling capital, is 
 
 ## Tools&APIs
 
-	### Tools
+ ### Tools
 
-	* [Knockout.js](http://knockoutjs.com/)
-	* [jQuery](http://jquery.com)
+  * [Knockout.js](http://knockoutjs.com/)
+  * [jQuery](http://jquery.com)
 
 
-	### APIs
+ ### APIs
 
-	* [Google Maps](https://developers.google.com/maps/)
-	* [Foursquare](https://developer.foursquare.com/)
+  * [Google Maps](https://developers.google.com/maps/)
+  * [Foursquare](https://developer.foursquare.com/)
 
 ## How to Use?
 
