@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Cairo Attractions</title>
+   
+    <link href="css/Style.css" rel="stylesheet" />
+    <script src='js/knockout-3.4.0.js'></script>
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="js/app.js"></script>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="side-menu-bar">
+            <div class="search-block">
+                <input class="search-input"  
+                        data-bind="textInput: searchTo,
+                        valueUpdate: 'keyup'" />
+            </div>
+            <ul class="list-places"
+                data-bind="foreach: placeLotsArray">
+                <li class="place-view" 
+                    data-bind="text: name, click: bounceTrig"></li>
+            </ul>
+        </div>
+
+        <div class="map" id="map"></div>
+    </div>
+
+    <script async defer 
+            src="https://maps.googleapis.com/maps/api/js?
+            key=AIzaSyAtuNog_ZrN8HMceJKoe1M5PF8sqRKnlqI
+            &callback=initializeLocations&libraries=places" 
+            onerror="ErrorHandler()">
+    </script>
+</body>
+</html>

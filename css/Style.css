@@ -1,0 +1,56 @@
+﻿body {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+
+.side-menu-bar {
+    order: 1;
+    flex-grow: .4;
+    background-color: #efc4c4;
+}
+
+.map {
+    order: 2;
+    flex-grow: 4.6;
+    background-color: #fff;
+    text-align: center;
+    height: 900px;
+}
+
+.place-view {
+    margin: 8px;
+    padding: 8px;
+    list-style: none;
+    border-bottom: solid;
+    border-color: hsla(0, 54%, 55%, 0.49);
+
+}
+.list-places {
+    margin: 0;
+    padding: 0;
+}
+
+.search-input {
+    float: left;
+    padding: 7px;
+    margin: 50px;
+    margin-left: 20px;
+    width: 70%;
+}
+
+@media screen and (max-width: 960px) {
+    .map {
+        flex-direction: column;
+    }
+
+    .side-menu-bar {
+        width: 30%;
+        font-size: 9px;
+    }
+}
