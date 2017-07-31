@@ -84,7 +84,7 @@ var GetLocationView = function (data) {
         self.twitter = responseApi.contact.twitter;
         
         if (self.phone !== undefined) {
-            self.phone;
+            self.phone();
         } else {
             self.phone = "";
         }
